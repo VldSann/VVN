@@ -1,1 +1,1 @@
-print "Hi it's Egel & Sannikov"
+print ("Hi it's Egel & Sannikov")
