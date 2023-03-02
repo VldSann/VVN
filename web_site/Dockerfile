@@ -12,3 +12,5 @@ RUN python -m pip install django
 COPY . .
 
 CMD python3 manage.py runserver
+
+RUN test_api.py
