@@ -13,4 +13,4 @@ COPY . .
 
 CMD python3 manage.py runserver
 
-RUN test_api.py
+CMD python3 test_api.py
