@@ -12,6 +12,4 @@ RUN python -m pip install django
 
 RUN python -m pip install requests
 
-RUN python -m pip install unittest
-
 CMD ["python3", "test_api.py"]
