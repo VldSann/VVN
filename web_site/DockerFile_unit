@@ -8,6 +8,10 @@ WORKDIR /home/test/Desktop/web_site
 
 COPY . .
 
-RUN pip install -r req.txt
+RUN python -m pip install django
+
+RUN python -m pip install requests
+
+RUN python -m pip install unittest
 
 CMD ["python3", "test_api.py"]
